@@ -1,0 +1,82 @@
+ * {margin:0; padding:0; box-sizing:border-box;}
+
+        body {
+            font-family:'Montserrat', sans-serif;
+            background:#324562;
+            color:white;
+            padding:40px 5%;
+        }
+
+        h1 {
+            text-align:center;
+            margin-bottom:50px;
+            color:#60b7c9;
+            text-shadow:0 0 15px rgba(96,183,201,0.7);
+            font-size:42px;
+        }
+
+        .bloque {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:40px;
+            background:#1e293b;
+            border-radius:25px;
+            box-shadow:0 6px 25px rgba(0,0,0,0.5);
+            padding:35px;
+            margin-bottom:40px;
+            transition:0.3s ease;
+        }
+
+        .bloque:hover {
+            transform: scale(1.03);
+            box-shadow:0 0 30px rgba(96,183,201,0.6);
+        }
+
+        .captura {
+            width:340px;
+            border-radius:15px;
+            border:3px solid #60b7c9;
+            box-shadow:0 0 15px rgba(96,183,201,0.3);
+        }
+
+        .arduinito {
+            width:130px;
+            filter: drop-shadow(0 0 10px #60b7c9);
+            transform:rotate(-3deg);
+        }
+
+        .texto {
+            max-width:550px;
+            font-size:18px;
+            color:#e5e5e5;
+            text-align:justify;
+            line-height:1.6;
+        }
+
+        .texto p::first-letter {
+            color:#60b7c9;
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        @media (max-width: 850px) {
+            .bloque {
+                flex-direction:column;
+                text-align:center;
+            }
+
+            .captura {
+                width:90%;
+            }
+
+            .arduinito {
+                width:100px;
+            }
+
+            .texto {
+                max-width:100%;
+                font-size:16px;
+            }
+        }
+

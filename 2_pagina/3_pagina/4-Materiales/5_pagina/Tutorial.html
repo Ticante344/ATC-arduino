@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Arduino - ARDUISHOP</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="turorial.css">
+       
+</head>
+
+<body>
+    <h1>Proyecto en Tinkercad con Arduino</h1>
+
+    <div class="bloque">
+        <img src="captura 1.jpg" alt="Captura 1" class="captura">
+        <img src="arduinito-removebg-preview.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+            <p>¡Hola! Mucho gusto mi nombre es Arduinito y el dia de hoy vengo a enseñarte como hacer tu propio semaforo con luces LEDS utilizando un arduino. Antes de iniciar ¿Que es un arduino? es una plataforma de hardware y software libre que permite que cualquier persona pueda crear proyectos electronicos interactivos de una manera sencilla. Entre un ejemplo claro tenemos este semaforo con luces LEDS que te estoy presentando a continuacion.</p>
+        </div>
+    </div>
+
+    <div class="bloque">
+        <img src="Tinkercad Upload by tinkercadsupport on Thingiverse - Thingiverse.jpeg" alt="Captura 2" class="captura">
+        <img src="arduinito 2.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+            <p>¡Fantastico! y bien, ya que sabemos que es un arduino ¿Que tal si ya empezamos a hacer uno? para esto nos dirijiremos a la pagina de Tinkercad, una pagina con la cual podemos a empezar a practicar sin que tengamos el riesgo de quemar algo. Para esto necesitamos saber que materiales usaremos, no te preocupes ya que encontraras todos los materiales que necesitas en la seccion de Materiales de esta misma pagina.</p>
+        </div>
+    </div>
+
+    <div class="bloque">
+        <img src="captura 3.jpg" alt="Captura 3" class="captura">
+        <img src="investigadordeishon.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+            <p>Y bien empezemos poniendo el breadboard el cual es un tablero que sera la base de todo para nuestro pequeño proyecto. Como podemos ver esta placa se compone de diferentes filas y columnas de conectores el cual nos permitira conectar diferentes componentes sin que tengamos la necesidad de soldar nada..</p>
+        </div>
+    </div>
+
+    <div class="bloque">
+        <img src="captura 4.jpg" alt="Captura 4" class="captura">
+        <img src="asombrado.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+            <p>Como se alcanza a observar cada LED dispone de patitas diferentes siendo una mas larga que la otra, estas se conocen como Anodo (Patita larga) Catodo (Patita corta). Para este proyecto decidimos utilizar 6 LEDS los cuales 3 estan a la izquierda y 3 a la derecha, es importante asegurarse que cada LED tenga su anodo y catodo en lados distintos por lo cual deben seguir ese orden. </p>
+        </div>
+    </div>
+
+    <div class="bloque">
+        <img src="captura 5.jpg" alt="captura 5" class="captura">
+        <img src="explosivo.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+            <p>¡Excelente! ahora vamos a poner las resistencias estas se encargan de que los LEDS no lleguen a quemarse limitando la corriente. Toma una resistencia por cada LED puesto colocandolo una pata de la resistencia en la misma fila del anodo del LED. La siguiente pata de la resistencia va en otra fila libre.</p>
+        </div>
+    </div>
+
+    <div class="bloque">
+        <img src="captura 6.jpg" alt="Captura 6" class="captura">
+        <img src="usb.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+            <p>Y bien ahora si empezamos con lo bueno, ahora utilizaremos un Arduino Uno el cual funciona como el "Cerebro" que controla cuando se llega a encender y apagar cada LED. si somos observadores notaremos que nuestro arduino ocupa una bateria para funcionar correctamente, como este es un semaforo el cual tiene la funcionalidad de seguir un orden usaremos un cable usb para conectarlo a nuestro equipo de computo..</p>
+        </div>
+    </div>
+
+    <div class="bloque">
+        <img src="captura 1.jpg" alt="Captura 7" class="captura">
+        <img src="Imagen_de_WhatsApp_2025-11-12_a_las_23.45.52_8ada70f2-removebg-preview.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+            <p>Y bien ahora tenemos que conectar los LEDS hacia el arduino. Como podemos observar cada cable entraria en una fila donde esta una pata libre de la resistencia, asi llevando la señal del arduino al LED correspondiente. Puedes guiarte de la imagen que estoy mostrando para ver en que pin va cada LED.</p>
+        </div>
+    </div>
+
+     <div class="bloque">
+        <img src="code.jpg" alt="Captura 8" class="captura">
+        <img src="ardui chambeador.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+        <p>¡Perfecto! ahora que tenemos armado nuestro arduino con luces LEDS sigue lo mas importante, programarlo para que siga de manera correca el funcionamiento de un semaforo, como podemos observar es importante que cada LED diaponga de alguna funcion para que nuestro semaforo siga un orden correcto y que no tengamos errores de que alguno prende antes que otro e inclusive que todos prendan sin querer.</p>
+        </div>
+     </div>
+
+          <div class="bloque">
+        <video width="400" height="225"
+        controls class="captura">
+        <source src="video.mp4" type="video/mp4"></video>
+        <img src="ardui y su amigo.png" alt="Arduinito" class="arduinito">
+        <div class="texto">
+        <p>¡Mira como funciona nuestro semaforo! Este video muestra el resultado final del proyecto en accion, con los LEDS encendientes en el orden correcto gracias al codigo del Arduino.</p>
+        </div>
+     </div>
+</body>
+</html>
